@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  src="calculator.js" defer></script>
+    <style>
+        h1{
+            margin-left: 5vw;
+        }
+     
+        #text{
+            width:22vw;
+            height:70px;
+            outline: none;
+            font-size: 50px; 
+            border:3px solid;
+            border-radius: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        .numbers{
+            width:22.71vw;
+        }
+      
+        .number{
+            margin:3px;
+            color:white;
+            padding: 20px;
+            background-color: black;
+            border-radius: 5px;
+            width:100px;
+            
+          
+        }
+        .main{
+            margin-left: 35%;
+        }
+@media (max-width:680px){
+    #text{
+        width:95%;
+    }
+    .numbers{
+       
+        width:90vw;
+    }
+    h1{
+        margin-left: 20vw;
+    }
+ 
+    .main{
+        margin-left:5%;
+    }
+
+}
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <h1>CLACULATOR</h1>
+        <input id="text" type="text" name="screen"/>
+        <br/>
+        <br/>
+        <div id="buttons">
+        <div class="numbers">
+            <button class="number" id="one">(</button>
+            <button class="number" id="two">)</button>
+            <button class="number" id="three">C</button>
+            <button class="number" id="multiply">%</button>
+        </div>
+        <div class="numbers">
+            <button class="number" id="four">1</button>
+            <button class="number" id="five">2</button>
+            <button class="number" id="six">3</button>
+            <button class="number" id="divide">X</button>
+        </div>
+        <div class="numbers">
+            <button class="number" id="seven">4</button>
+            <button class="number" id="eight">5</button>
+            <button class="number" id="nine">6</button>
+            <button class="number" id="subtract">-</button>
+        </div>
+        <div class="numbers">
+            <button class="number" id="modulus">7</button>
+            <button class="number" id="zero">8</button>
+            <button class="number" id="equal">9</button>
+            <button class="number" id="add">+</button>
+        </div>
+        <div class="numbers">
+            <button class="number" id="modulus">.</button>
+            <button class="number" id="zero">0</button>
+            <button class="number" id="equal">/</button>
+            <button class="number" id="add">=</button>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
